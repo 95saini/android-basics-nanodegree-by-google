@@ -1,0 +1,72 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App related strings. -->
+    <string name="app_name">Inventory App</string>
+    <string name="app_title_settings">Settings</string>
+    <string name="app_title_add_product">Add Product</string>
+    <string name="app_title_edit_product">Edit Product</string>
+
+    <!-- Products related strings. -->
+    <string name="product_default_name">Unnamed</string>
+    <string name="product_formatted_quantity"><xliff:g id="product_quantity">%s</xliff:g> in Stock</string>
+    <string name="product_formatted_quantity_empty">Out of Stock</string>
+    <string name="product_label_name">Name</string>
+    <string name="product_label_price">Price</string>
+    <string name="product_label_quantity">Quantity</string>
+    <string name="product_label_quantity_sale">Sale</string>
+    <string name="product_label_quantity_minus" translatable="false">-</string>
+    <string name="product_label_quantity_plus" translatable="false">+</string>
+    <string name="product_label_image">Image</string>
+    <string name="product_label_image_select">Select</string>
+    <string name="product_label_image_remove" translatable="false">×</string>
+
+    <!-- Suppliers related strings. -->
+    <string name="supplier_label_order_more">Order More</string>
+    <string name="supplier_default_email_address">suppliers@supplies.com</string>
+    <string name="supplier_default_email_subject">Supplies Order for <xliff:g id="product_name">%s</xliff:g></string>
+    <string name="supplier_default_email_text">Hi, Supplier!\n\nPlease send another package of <xliff:g id="quantity_scale">%d</xliff:g> unit(s).\n\nThank you in advance.</string>
+
+    <!-- Hints related strings. -->
+    <string name="hint_product_name">Product Name</string>
+    <string name="hint_product_price">0.00</string>
+    <string name="hint_product_quantity">0</string>
+
+    <!-- Titles related strings. -->
+    <string name="title_delete_all_the_products">Delete all the Products</string>
+    <string name="title_discard_changes">Discard Changes</string>
+    <string name="title_delete_product">Delete Product</string>
+
+    <!-- Messages related strings. -->
+    <string name="message_no_results_found">No results found.</string>
+    <string name="message_no_results_found_instructions">Please click the add button to get started.</string>
+    <string name="message_all_products_inserted">All products inserted.</string>
+    <string name="message_error_inserting_products">Error inserting products.</string>
+    <string name="message_are_you_sure">Are you sure?</string>
+    <string name="message_all_products_deleted">All products deleted.</string>
+    <string name="message_error_deleting_products">Error deleting products.</string>
+    <string name="message_cannot_leave_blank">Cannot leave blank.</string>
+    <string name="message_cannot_select_zero">Cannot select zero.</string>
+    <string name="message_cannot_decrease_anymore">Cannot decrease anymore.</string>
+    <string name="message_product_image_removed">Product image removed.</string>
+    <string name="message_missing_required_field">Missing required field.</string>
+    <string name="message_product_saved">Product saved.</string>
+    <string name="message_error_saving_product">Error saving product.</string>
+    <string name="message_product_updated">Product updated.</string>
+    <string name="message_error_updating_product">Error updating product.</string>
+    <string name="message_error_loading_product">Error loading product.</string>
+    <string name="message_product_deleted">Product deleted.</string>
+    <string name="message_error_deleting_product">Error deleting product.</string>
+    <string name="message_no_applications_found">No applications found.</string>
+
+    <!-- Menu items related strings. -->
+    <string name="menu_item_insert_dummy_products">Insert Dummy Products</string>
+    <string name="menu_item_delete_all_the_products">Delete all the Products</string>
+    <string name="menu_item_settings">Settings</string>
+    <string name="menu_item_save_product">Save Product</string>
+    <string name="menu_item_delete_product">Delete Product</string>
+
+    <!-- Settings (Quantity Scale) related strings. -->
+    <string name="setting_title_quantity_scale">Quantity Scale</string>
+    <string name="setting_key_quantity_scale" translatable="false">quantity_scale</string>
+    <string name="setting_default_quantity_scale" translatable="false">1</string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_editor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".EditorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_standard"
+        android:paddingLeft="@dimen/margin_standard"
+        android:paddingRight="@dimen/margin_standard"
+        android:paddingTop="@dimen/margin_half">
+
+        <LinearLayout style="@style/AppVerticalDividerLinearLayout">
+
+            <TextView
+                style="@style/AppLabelTextView"
+                android:text="@string/product_label_name" />
+
+            <EditText
+                android:id="@+id/product_name_edit_text"
+                style="@style/AppEditText"
+                android:hint="@string/hint_product_name"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppVerticalDividerLinearLayout">
+
+            <TextView
+                style="@style/AppLabelTextView"
+                android:text="@string/product_label_price" />
+
+            <EditText
+                android:id="@+id/product_price_edit_text"
+                style="@style/AppEditText"
+                android:hint="@string/hint_product_price"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppVerticalDividerLinearLayout">
+
+            <TextView
+                style="@style/AppLabelTextView"
+                android:text="@string/product_label_quantity" />
+
+            <LinearLayout style="@style/AppHorizontalDividerLinearLayout">
+
+                <Button
+                    android:id="@+id/product_quantity_minus_button"
+                    style="@style/AppButton"
+                    android:text="@string/product_label_quantity_minus" />
+
+                <EditText
+                    android:id="@+id/product_quantity_edit_text"
+                    style="@style/AppEditText"
+                    android:gravity="center_horizontal"
+                    android:hint="@string/hint_product_quantity"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/product_quantity_plus_button"
+                    style="@style/AppButton"
+                    android:text="@string/product_label_quantity_plus" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppVerticalDividerLinearLayout">
+
+            <TextView
+                style="@style/AppLabelTextView"
+                android:text="@string/product_label_image" />
+
+            <LinearLayout style="@style/AppHorizontalDividerLinearLayout">
+
+                <Button
+                    android:id="@+id/product_image_select_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/product_label_image_select"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/product_image_remove_button"
+                    style="@style/AppButton"
+                    android:text="@string/product_label_image_remove" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/product_image_image_view"
+            android:layout_width="@dimen/product_image_size"
+            android:layout_height="@dimen/product_image_size"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_half"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/android_studio_icon" />
+
+        <Button
+            android:id="@+id/supplier_order_more_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_half"
+            android:text="@string/supplier_label_order_more"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>

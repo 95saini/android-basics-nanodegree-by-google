@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/business_photo_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/business_view" />
+
+        <TextView
+            android:id="@+id/business_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/business_photo_image_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/margin_standard"
+            android:layout_marginRight="@dimen/margin_standard"
+            android:layout_marginTop="@dimen/margin_standard"
+            android:text="@string/business_name"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_size_headline"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/business_slogan_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/business_name_text_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_half"
+            android:layout_marginLeft="@dimen/margin_standard"
+            android:layout_marginRight="@dimen/margin_standard"
+            android:text="@string/business_slogan"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/business_location_label_text_view"
+            style="@style/AppLabelTextView"
+            android:layout_below="@id/business_slogan_text_view"
+            android:text="@string/business_location_label" />
+
+        <TextView
+            android:id="@+id/business_location_text_text_view"
+            style="@style/AppTextTextView"
+            android:layout_below="@id/business_location_label_text_view"
+            android:autoLink="map"
+            android:text="@string/business_location_text" />
+
+        <TextView
+            android:id="@+id/business_phone_label_text_view"
+            style="@style/AppLabelTextView"
+            android:layout_below="@id/business_location_text_text_view"
+            android:text="@string/business_phone_label" />
+
+        <TextView
+            android:id="@+id/business_phone_text_view"
+            style="@style/AppTextTextView"
+            android:layout_below="@id/business_phone_label_text_view"
+            android:autoLink="phone"
+            android:text="@string/business_phone_text" />
+
+        <TextView
+            android:id="@+id/business_hours_of_operation_label_text_view"
+            style="@style/AppLabelTextView"
+            android:layout_below="@id/business_phone_text_view"
+            android:text="@string/business_hours_of_operation_label" />
+
+        <TextView
+            android:id="@+id/business_hours_of_operation_text_text_view"
+            style="@style/AppTextTextView"
+            android:layout_below="@id/business_hours_of_operation_label_text_view"
+            android:layout_marginBottom="@dimen/margin_half"
+            android:text="@string/business_hours_of_operation_text" />
+
+        <TextView
+            android:id="@+id/business_description_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/business_hours_of_operation_text_text_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_half"
+            android:layout_marginLeft="@dimen/margin_standard"
+            android:layout_marginRight="@dimen/margin_standard"
+            android:text="@string/business_description"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/business_reminder_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/business_description_text_view"
+            android:layout_marginBottom="@dimen/margin_standard"
+            android:layout_marginLeft="@dimen/margin_standard"
+            android:layout_marginRight="@dimen/margin_standard"
+            android:text="@string/business_reminder"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/text_size_subheading"
+            android:textStyle="italic" />
+    </RelativeLayout>
+</ScrollView>

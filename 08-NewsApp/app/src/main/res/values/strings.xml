@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- App related strings. -->
+    <string name="app_name">News App</string>
+    <string name="app_title_settings">Settings</string>
+
+    <!-- News related strings. -->
+    <string name="news_default_web_title">Untitled</string>
+    <string name="news_default_section_name">Uncategorized</string>
+    <string name="news_default_type">Untyped</string>
+    <string name="news_default_web_publication_date">Unpublished</string>
+    <string name="news_default_web_url">https://www.google.com.do/"></string>
+
+    <!-- Hints related strings. -->
+    <string name="hint_search_box">News Topic</string>
+
+    <!-- Searches related strings. -->
+    <string name="search_button_label">Search</string>
+
+    <!-- Messages related strings. -->
+    <string name="message_please_enter_topic">Please enter topic.</string>
+    <string name="message_no_internet_connection">No Internet connection.</string>
+    <string name="message_no_results_found">No results found.</string>
+    <string name="message_cannot_leave_blank">Cannot leave blank.</string>
+    <string name="message_cannot_select_zero">Cannot select zero.</string>
+    <string name="message_no_applications_found">No applications found.</string>
+
+    <!-- Menu items related strings. -->
+    <string name="menu_item_settings">Settings</string>
+
+    <!-- Settings (Page Size) related strings. -->
+    <string name="setting_title_page_size">Page Size</string>
+    <string name="setting_key_page_size" translatable="false">page_size</string>
+    <string name="setting_default_page_size" translatable="false">10</string>
+
+    <!-- Settings (Order By) related strings. -->
+    <string name="setting_title_order_by">Order By</string>
+    <string name="setting_key_order_by" translatable="false">order_by</string>
+    <string name="setting_default_order_by" translatable="false">@string/setting_value_order_by_option_relevance</string>
+
+    <string name="setting_label_order_by_option_newest">Newest</string>
+    <string name="setting_value_order_by_option_newest" translatable="false">newest</string>
+
+    <string name="setting_label_order_by_option_oldest">Oldest</string>
+    <string name="setting_value_order_by_option_oldest" translatable="false">oldest</string>
+
+    <string name="setting_label_order_by_option_relevance">Relevance</string>
+    <string name="setting_value_order_by_option_relevance" translatable="false">relevance</string>
+</resources>

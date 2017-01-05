@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- App related strings. -->
+    <string name="app_name">Musical Structure App</string>
+
+    <!-- Music related strings. -->
+    <string name="music_title">Displays the main screens.</string>
+    <string name="music_playlists">Playlists</string>
+    <string name="music_songs">Songs</string>
+    <string name="music_albums">Albums</string>
+    <string name="music_artists">Artists</string>
+    <string name="music_main">Main</string>
+
+    <!-- Playlists related strings. -->
+    <string name="playlist_title">Displays the available playlists.</string>
+    <string name="playlist_description">Required Classes\n- MediaStore.Audio: to get the necessary URIs.\n- ContentProvider: to get the audio files.\n\nAnd then filter out the files based on the gender.\nFinally, a list of playlists will be displayed.\nFrom which the user can go into the songs.</string>
+
+    <!-- Songs related strings. -->
+    <string name="song_title">Displays the available songs.</string>
+    <string name="song_description">Required Classes\n- MediaStore.Audio: to get the necessary URIs.\n- ContentProvider: to get the audio files.\n- MediaPlayer: to reproduce the audio files.\n\nAnd then filter out the files based on the context.\nFinally, a list of songs will be displayed.\nFrom which the user can reproduce the song.</string>
+
+    <!-- Albums related strings. -->
+    <string name="album_title">Displays the available albums.</string>
+    <string name="album_description">Required Classes\n- MediaStore.Audio: to get the necessary URIs.\n- ContentProvider: to get the audio files.\n\nAnd then filter out the files based on the album.\nFinally, a list of albums will be displayed.\nFrom which the user can go into the songs.</string>
+
+    <!-- Artists related strings. -->
+    <string name="artist_title">Displays the available artists.</string>
+    <string name="artist_description">Required Classes\n- MediaStore.Audio: to get the necessary URIs.\n- ContentProvider: to get the audio files.\n\nAnd then filter out the files based on the artist.\nFinally, a list of artists will be displayed.\nFrom which the user can go into the songs.</string>
+</resources>

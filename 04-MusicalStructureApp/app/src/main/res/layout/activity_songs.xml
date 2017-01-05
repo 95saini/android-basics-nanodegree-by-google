@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_songs"
+    style="@style/AppMainScrollView"
+    tools:context=".SongsActivity">
+
+    <LinearLayout style="@style/AppMainLinearLayout">
+
+        <TextView
+            style="@style/AppTitleTextView"
+            android:text="@string/song_title" />
+
+        <Button
+            android:id="@+id/main_activity_button"
+            style="@style/AppButton"
+            android:text="@string/music_main" />
+
+        <Button
+            android:id="@+id/playlists_activity_button"
+            style="@style/AppButton"
+            android:text="@string/music_playlists" />
+
+        <Button
+            android:id="@+id/albums_activity_button"
+            style="@style/AppButton"
+            android:text="@string/music_albums" />
+
+        <Button
+            android:id="@+id/artists_activity_button"
+            style="@style/AppButton"
+            android:text="@string/music_artists" />
+
+        <TextView
+            style="@style/AppDescriptionTextView"
+            android:text="@string/song_description" />
+    </LinearLayout>
+</ScrollView>

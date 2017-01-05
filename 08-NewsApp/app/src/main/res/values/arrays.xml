@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Settings (Order By) related arrays. -->
+    <string-array name="setting_label_order_by_options">
+        <item>@string/setting_label_order_by_option_newest</item>
+        <item>@string/setting_label_order_by_option_oldest</item>
+        <item>@string/setting_label_order_by_option_relevance</item>
+    </string-array>
+
+    <string-array name="setting_value_order_by_options">
+        <item>@string/setting_value_order_by_option_newest</item>
+        <item>@string/setting_value_order_by_option_oldest</item>
+        <item>@string/setting_value_order_by_option_relevance</item>
+    </string-array>
+</resources>

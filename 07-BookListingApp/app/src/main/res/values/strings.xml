@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- App related strings. -->
+    <string name="app_name">Book Listing App</string>
+
+    <!-- Books related strings. -->
+    <string name="book_default_title">Untitled</string>
+    <string name="book_default_description">No description provided.</string>
+    <string name="book_default_authors">Anonymous</string>
+    <string name="book_default_published_date">Unpublished</string>
+    <string name="book_default_info_link">https://www.google.com.do/"></string>
+
+    <!-- Hints related strings. -->
+    <string name="hint_search_box">Book Title</string>
+
+    <!-- Searches related strings. -->
+    <string name="search_button_label">Search</string>
+
+    <!-- Messages related strings. -->
+    <string name="message_please_enter_title">Please enter title.</string>
+    <string name="message_no_internet_connection">No Internet connection.</string>
+    <string name="message_no_results_found">No results found.</string>
+    <string name="message_no_applications_found">No applications found.</string>
+</resources>

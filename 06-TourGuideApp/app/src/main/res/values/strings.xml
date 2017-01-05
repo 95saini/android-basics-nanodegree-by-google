@@ -1,0 +1,118 @@
+<resources>
+
+    <!-- App related strings. -->
+    <string name="app_name">Tour Guide App</string>
+
+    <!-- Pages related strings. -->
+    <string name="page_1_title">Amsterdam</string>
+    <string name="page_2_title">Berlin</string>
+    <string name="page_3_title">Madrid</string>
+    <string name="page_4_title">Rome</string>
+
+    <!-- Amsterdam related strings. -->
+    <string name="amsterdam_attraction_1_name">Anne Frank House</string>
+    <string name="amsterdam_attraction_1_description">WWII teenage diarist\'s house museum</string>
+    <string name="amsterdam_attraction_1_latitude">52.3752</string>
+    <string name="amsterdam_attraction_1_longitude">4.8840</string>
+    <string name="amsterdam_attraction_2_name">Van Gogh Museum</string>
+    <string name="amsterdam_attraction_2_description">World\'s largest van Gogh collection</string>
+    <string name="amsterdam_attraction_2_latitude">52.3584</string>
+    <string name="amsterdam_attraction_2_longitude">4.8811</string>
+    <string name="amsterdam_attraction_3_name">Rijksmuseum</string>
+    <string name="amsterdam_attraction_3_description">Art museum housing European masterpieces</string>
+    <string name="amsterdam_attraction_3_latitude">52.3600</string>
+    <string name="amsterdam_attraction_3_longitude">4.8852</string>
+    <string name="amsterdam_attraction_4_name">Vondelpark</string>
+    <string name="amsterdam_attraction_4_description">Huge park with an open-air theater</string>
+    <string name="amsterdam_attraction_4_latitude">52.3580</string>
+    <string name="amsterdam_attraction_4_longitude">4.8686</string>
+    <string name="amsterdam_attraction_5_name">Rembrandt House Museum</string>
+    <string name="amsterdam_attraction_5_description">Dutch master\'s 17th-century home studio</string>
+    <string name="amsterdam_attraction_5_latitude">52.3694</string>
+    <string name="amsterdam_attraction_5_longitude">4.9012</string>
+    <string name="amsterdam_attraction_6_name">Natura Artis Magistra</string>
+    <string name="amsterdam_attraction_6_description">Long-established zoo with aquarium</string>
+    <string name="amsterdam_attraction_6_latitude">52.3660</string>
+    <string name="amsterdam_attraction_6_longitude">4.9165</string>
+
+    <!-- Berlin related strings. -->
+    <string name="berlin_attraction_1_name">Reichstag building</string>
+    <string name="berlin_attraction_1_description">Historic, glass-domed home of parliament</string>
+    <string name="berlin_attraction_1_latitude">52.5186</string>
+    <string name="berlin_attraction_1_longitude">13.3762</string>
+    <string name="berlin_attraction_2_name">Brandenburg Gate</string>
+    <string name="berlin_attraction_2_description">Grand classical archway &amp; city divide</string>
+    <string name="berlin_attraction_2_latitude">52.5163</string>
+    <string name="berlin_attraction_2_longitude">13.3777</string>
+    <string name="berlin_attraction_3_name">Berlin Wall</string>
+    <string name="berlin_attraction_3_description">Conserved part of city wall &amp; exhibition</string>
+    <string name="berlin_attraction_3_latitude">52.5351</string>
+    <string name="berlin_attraction_3_longitude">13.3902</string>
+    <string name="berlin_attraction_4_name">Pergamon Museum</string>
+    <string name="berlin_attraction_4_description">Antiquities &amp; ancient art collections</string>
+    <string name="berlin_attraction_4_latitude">52.5212</string>
+    <string name="berlin_attraction_4_longitude">13.3969</string>
+    <string name="berlin_attraction_5_name">Checkpoint Charlie</string>
+    <string name="berlin_attraction_5_description">Cold war &amp; east-west border landmark</string>
+    <string name="berlin_attraction_5_latitude">52.5076</string>
+    <string name="berlin_attraction_5_longitude">13.3904</string>
+    <string name="berlin_attraction_6_name">Memorial to the Murdered Jews of Europe</string>
+    <string name="berlin_attraction_6_description">2,711 columns commemorating Holocaust</string>
+    <string name="berlin_attraction_6_latitude">52.5139</string>
+    <string name="berlin_attraction_6_longitude">13.3787</string>
+
+    <!-- Madrid related strings. -->
+    <string name="madrid_attraction_1_name">Plaza Mayor, Madrid</string>
+    <string name="madrid_attraction_1_description">Madrid\'s vibrant main square</string>
+    <string name="madrid_attraction_1_latitude">40.4155</string>
+    <string name="madrid_attraction_1_longitude">3.7074</string>
+    <string name="madrid_attraction_2_name">Museo Nacional Del Prado</string>
+    <string name="madrid_attraction_2_description">World-class European art collection</string>
+    <string name="madrid_attraction_2_latitude">40.4138</string>
+    <string name="madrid_attraction_2_longitude">3.6921</string>
+    <string name="madrid_attraction_3_name">Buen Retiro Park</string>
+    <string name="madrid_attraction_3_description">Vast 19th-century park with fountains</string>
+    <string name="madrid_attraction_3_latitude">40.4153</string>
+    <string name="madrid_attraction_3_longitude">3.6845</string>
+    <string name="madrid_attraction_4_name">Museo Nacional Centro de Arte Reina Sofía</string>
+    <string name="madrid_attraction_4_description">Prominent 20th-century Spanish artworks</string>
+    <string name="madrid_attraction_4_latitude">40.4079</string>
+    <string name="madrid_attraction_4_longitude">3.6946</string>
+    <string name="madrid_attraction_5_name">Royal Palace of Madrid</string>
+    <string name="madrid_attraction_5_description">Regal 2,000-room palace, armory &amp; garden</string>
+    <string name="madrid_attraction_5_latitude">40.4180</string>
+    <string name="madrid_attraction_5_longitude">3.7143</string>
+    <string name="madrid_attraction_6_name">Thyssen-Bornemisza Museum</string>
+    <string name="madrid_attraction_6_description">European art from 13th to 20th centuries</string>
+    <string name="madrid_attraction_6_latitude">40.4160</string>
+    <string name="madrid_attraction_6_longitude">3.6949</string>
+
+    <!-- Rome related strings. -->
+    <string name="rome_attraction_1_name">Colosseum</string>
+    <string name="rome_attraction_1_description">Iconic ancient Roman gladiatorial arena</string>
+    <string name="rome_attraction_1_latitude">41.8902</string>
+    <string name="rome_attraction_1_longitude">12.4922</string>
+    <string name="rome_attraction_2_name">Pantheon</string>
+    <string name="rome_attraction_2_description">Landmark Roman church &amp; historic tombs</string>
+    <string name="rome_attraction_2_latitude">41.8986</string>
+    <string name="rome_attraction_2_longitude">12.4769</string>
+    <string name="rome_attraction_3_name">Roman Forum</string>
+    <string name="rome_attraction_3_description">Excavated heart of the Roman Empire</string>
+    <string name="rome_attraction_3_latitude">41.8925</string>
+    <string name="rome_attraction_3_longitude">12.4853</string>
+    <string name="rome_attraction_4_name">Trevi Fountain</string>
+    <string name="rome_attraction_4_description">Iconic 18th-century sculpted fountain</string>
+    <string name="rome_attraction_4_latitude">41.9009</string>
+    <string name="rome_attraction_4_longitude">12.4833</string>
+    <string name="rome_attraction_5_name">Spanish Steps</string>
+    <string name="rome_attraction_5_description">Iconic baroque stairway &amp; meeting place</string>
+    <string name="rome_attraction_5_latitude">41.9060</string>
+    <string name="rome_attraction_5_longitude">12.4828</string>
+    <string name="rome_attraction_6_name">St. Peter\'s Basilica</string>
+    <string name="rome_attraction_6_description">World’s largest basilica of Christianity</string>
+    <string name="rome_attraction_6_latitude">41.9022</string>
+    <string name="rome_attraction_6_longitude">12.4539</string>
+
+    <!-- Messages related strings. -->
+    <string name="message_no_applications_found">No applications found.</string>
+</resources>

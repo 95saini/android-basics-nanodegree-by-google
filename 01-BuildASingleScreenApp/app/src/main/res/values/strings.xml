@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- App related strings. -->
+    <string name="app_name">Build a Single Screen App</string>
+
+    <!-- Businesses related strings. -->
+    <string name="business_name">Tío Pan</string>
+    <string name="business_slogan">Panadería / Pastelería</string>
+    <string name="business_location_label">Location</string>
+    <string name="business_location_text">Calle J.A. Puig, Puerto Plata 57000</string>
+    <string name="business_phone_label">Phone</string>
+    <string name="business_phone_text">+1 (809) 261-0787</string>
+    <string name="business_hours_of_operation_label">Hours of Operation</string>
+    <string name="business_hours_of_operation_text">Daily | 6:00AM - 11:30PM</string>
+    <string name="business_description">Come now and get the freshest bread!</string>
+    <string name="business_reminder">And remember; not all breads are made equally...</string>
+</resources>

@@ -1,0 +1,50 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App related strings. -->
+    <string name="app_name">Quiz App</string>
+
+    <!-- Quizzes related strings. -->
+    <string name="quiz_topic">Rubik\'s Cube Questionnaire</string>
+    <string name="quiz_submit">Submit</string>
+    <string name="quiz_reset">Reset</string>
+
+    <!-- Questions related strings. -->
+    <string name="question_1_label">Question #1</string>
+    <string name="question_1_text">What dimensions are accepted?</string>
+    <string name="question_2_label">Question #2</string>
+    <string name="question_2_text">When was invented?</string>
+    <string name="question_3_label">Question #3</string>
+    <string name="question_3_text">Who invented the toy?</string>
+    <string name="question_4_label">Question #4</string>
+    <string name="question_4_text">What is the record?</string>
+    <string name="question_5_label">Question #5</string>
+    <string name="question_5_text">What other name does it have?</string>
+
+    <!-- Hints related strings. -->
+    <string name="hint_question_3">Person Name</string>
+
+    <!-- Responses related strings. -->
+    <string name="response_1_question_1">1x1x1</string>
+    <string name="response_2_question_1">2x2x2</string>
+    <string name="response_3_question_1">3x3x3</string>
+    <string name="response_1_question_2">1974</string>
+    <string name="response_2_question_2">1977</string>
+    <string name="response_3_question_2">1980</string>
+    <string name="response_1_question_4">5.09s</string>
+    <string name="response_2_question_4">4.94s</string>
+    <string name="response_3_question_4">4.90s</string>
+    <string name="response_1_question_5">Fantastic Cube</string>
+    <string name="response_2_question_5">Magic Cube</string>
+    <string name="response_3_question_5">Rubik\'s Magic Cube</string>
+
+    <!-- Answers related strings. -->
+    <string name="answer_question_1">1x1x1,2x2x2,3x3x3</string>
+    <string name="answer_question_2">1974</string>
+    <string name="answer_question_3">Erno Rubik</string>
+    <string name="answer_question_4">4.90s</string>
+    <string name="answer_question_5">Magic Cube,Rubik\'s Magic Cube</string>
+
+    <!-- Messages related strings. -->
+    <string name="message_score">Score: <xliff:g id="number_of_answers">%d</xliff:g> / <xliff:g id="number_of_questions">%d</xliff:g></string>
+    <string name="message_question_responses_reset">Question responses reset.</string>
+</resources>

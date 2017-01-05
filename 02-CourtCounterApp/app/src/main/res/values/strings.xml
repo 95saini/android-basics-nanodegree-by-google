@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- App related strings. -->
+    <string name="app_name">Court Counter App</string>
+
+    <!-- Teams related strings. -->
+    <string name="team_a_name">Team A</string>
+    <string name="team_b_name">Team B</string>
+    <string name="team_initial_counter">0</string>
+    <string name="team_add_six_points">+6 Points</string>
+    <string name="team_add_three_points">+3 Points</string>
+    <string name="team_add_two_points">+2 Points</string>
+    <string name="team_add_one_point">+1 Point</string>
+    <string name="team_reset">Reset</string>
+
+    <!-- Messages related strings. -->
+    <string name="message_team_scores_reset">Team scores reset.</string>
+</resources>
